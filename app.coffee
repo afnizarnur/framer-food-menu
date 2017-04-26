@@ -36,18 +36,29 @@ overlay = new Layer
 	width: Screen.width
 	height: Screen.height
 	opacity: 0
+	visible: false
 	z: 0
 
-app.btn_menu.on Events.Click, ->
+overlay.on Events.Click, ->
+	app.menu.animate
+		y: Screen.height
+		curve: "spring(400, 35, 0)"
+		options:
+			time: .45
 	overlay.animate 
-		opacity: .3
+		opacity: 0
+		curve: "spring(400, 35, 0)"
+	# Still problem in the animation
+# 	overlay.visible = false
+
+app.btn_menu.on Events.Click, ->
+	overlay.visible = true
+	overlay.animate 
+		opacity: .5
 		curve: "spring(400, 35, 0)"
 	app.menu.animate
 		y: 352
 		curve: "spring(400, 35, 0)"
 		options:
 			time: .45
-	
-		
-# 	print "Clicked"
 	
