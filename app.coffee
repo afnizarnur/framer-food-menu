@@ -26,32 +26,35 @@ app.btn_menu.onMouseUp ->
 			curve: Bezier.easeInOut
 			time: .1
 
-# Set menu position
+# Set menu position and prop
 app.menu.y = Screen.height
 app.menu.visible = true
 app.menu.z = 1
+
+# app.menu.opacity = .1
 	
 overlay = new Layer
 	backgroundColor: "black"
 	width: Screen.width
 	height: Screen.height
 	opacity: 0
-	visible: false
-	index: 1
-# 	parent: app.main
+	index: 0
 
 app.btn_menu.on Events.Click, ->
-	overlay.visible = true
 	overlay.animate 
 		opacity: .5
+		z: 1
 		curve: "spring(400, 35, 0)"
+
 	app.menu.animate
 		y: 352
+		z: 9
 		curve: "spring(400, 35, 0)"
 		options:
 			time: .45
 
 overlay.on Events.Click, ->
+	overlay.z = 1
 	app.menu.animate
 		y: Screen.height
 		curve: "spring(400, 35, 0)"
@@ -63,5 +66,4 @@ overlay.on Events.Click, ->
 		opacity: 0
 		curve: "spring(400, 35, 0)"
 	
-	overlay.visible = false
 	
