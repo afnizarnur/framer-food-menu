@@ -193,10 +193,10 @@ window.__imported__["food-menu@2x/layers.json.js"] = [
 				"originalName": "menu",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 30,
-					"y": 219,
-					"width": 316,
-					"height": 403
+					"x": 0,
+					"y": 176,
+					"width": 375,
+					"height": 491
 				},
 				"visible": false,
 				"metadata": {
@@ -204,16 +204,16 @@ window.__imported__["food-menu@2x/layers.json.js"] = [
 				},
 				"children": [
 					{
-						"objectId": "5AC20A4C-51AA-4A4E-AEB0-EF38F7CE285B",
+						"objectId": "44F90F57-15B6-454C-859C-7CF8AF9EDEAF",
 						"kind": "group",
-						"name": "star",
-						"originalName": "star",
+						"name": "item",
+						"originalName": "item",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 152,
-							"y": 501,
-							"width": 71,
-							"height": 16
+							"x": 30,
+							"y": 219,
+							"width": 316,
+							"height": 403
 						},
 						"visible": true,
 						"metadata": {
@@ -221,145 +221,110 @@ window.__imported__["food-menu@2x/layers.json.js"] = [
 						},
 						"children": [
 							{
-								"objectId": "64CB264E-0B35-49A8-8CA8-A5E25324A155",
+								"objectId": "5AC20A4C-51AA-4A4E-AEB0-EF38F7CE285B",
 								"kind": "group",
-								"name": "star_1",
-								"originalName": "star_1",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 206,
-									"y": 501,
-									"width": 17,
-									"height": 16
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-star_1-njrdqji2.png",
-									"frame": {
-										"x": 206,
-										"y": 501,
-										"width": 17,
-										"height": 16
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "BADE5B84-0D8E-4328-A31A-1EDE503EC429",
-								"kind": "group",
-								"name": "star_2",
-								"originalName": "star_2",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 179,
-									"y": 501,
-									"width": 17,
-									"height": 16
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-star_2-qkfertvc.png",
-									"frame": {
-										"x": 179,
-										"y": 501,
-										"width": 17,
-										"height": 16
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "DD1F5D27-41A8-41A0-9502-09B06514DE86",
-								"kind": "group",
-								"name": "star_3",
-								"originalName": "star_3",
+								"name": "star",
+								"originalName": "star",
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 152,
 									"y": 501,
-									"width": 17,
+									"width": 71,
 									"height": 16
 								},
 								"visible": true,
 								"metadata": {
 									"opacity": 1
 								},
-								"image": {
-									"path": "images/Layer-star_3-reqxrjve.png",
-									"frame": {
-										"x": 152,
-										"y": 501,
-										"width": 17,
-										"height": 16
+								"children": [
+									{
+										"objectId": "64CB264E-0B35-49A8-8CA8-A5E25324A155",
+										"kind": "group",
+										"name": "star_1",
+										"originalName": "star_1",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 206,
+											"y": 501,
+											"width": 17,
+											"height": 16
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-star_1-njrdqji2.png",
+											"frame": {
+												"x": 206,
+												"y": 501,
+												"width": 17,
+												"height": 16
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "BADE5B84-0D8E-4328-A31A-1EDE503EC429",
+										"kind": "group",
+										"name": "star_2",
+										"originalName": "star_2",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 179,
+											"y": 501,
+											"width": 17,
+											"height": 16
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-star_2-qkfertvc.png",
+											"frame": {
+												"x": 179,
+												"y": 501,
+												"width": 17,
+												"height": 16
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "DD1F5D27-41A8-41A0-9502-09B06514DE86",
+										"kind": "group",
+										"name": "star_3",
+										"originalName": "star_3",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 152,
+											"y": 501,
+											"width": 17,
+											"height": 16
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-star_3-reqxrjve.png",
+											"frame": {
+												"x": 152,
+												"y": 501,
+												"width": 17,
+												"height": 16
+											}
+										},
+										"children": []
 									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "E4A32F06-66E8-4D24-A0A0-9A895E32BE0D",
-						"kind": "group",
-						"name": "pesan",
-						"originalName": "pesan",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 30,
-							"y": 562,
-							"width": 316,
-							"height": 60
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"children": [
-							{
-								"objectId": "7EA94DBC-F3D5-4643-9E19-F0616A87A4F9",
-								"kind": "text",
-								"name": "text_pesan",
-								"originalName": "text_pesan",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 155,
-									"y": 587,
-									"width": 64,
-									"height": 12
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1,
-									"string": "PESAN",
-									"css": [
-										"/* PESAN: */",
-										"font-family: RobotoSlab-Regular;",
-										"font-size: 15px;",
-										"color: #FFFFFF;",
-										"letter-spacing: 3.4px;"
-									]
-								},
-								"image": {
-									"path": "images/Layer-text_pesan-n0vbotre.png",
-									"frame": {
-										"x": 155,
-										"y": 587,
-										"width": 64,
-										"height": 12
-									}
-								},
-								"children": []
+								]
 							},
 							{
-								"objectId": "45546D9E-C457-4C59-87DC-2EC87F24D494",
+								"objectId": "E4A32F06-66E8-4D24-A0A0-9A895E32BE0D",
 								"kind": "group",
-								"name": "bg_pesan",
-								"originalName": "bg_pesan",
+								"name": "pesan",
+								"originalName": "pesan",
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 30,
@@ -371,132 +336,213 @@ window.__imported__["food-menu@2x/layers.json.js"] = [
 								"metadata": {
 									"opacity": 1
 								},
-								"image": {
-									"path": "images/Layer-bg_pesan-ndu1ndze.png",
-									"frame": {
-										"x": 30,
-										"y": 562,
-										"width": 316,
-										"height": 60
+								"children": [
+									{
+										"objectId": "7EA94DBC-F3D5-4643-9E19-F0616A87A4F9",
+										"kind": "text",
+										"name": "text_pesan",
+										"originalName": "text_pesan",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 155,
+											"y": 587,
+											"width": 64,
+											"height": 12
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "PESAN",
+											"css": [
+												"/* PESAN: */",
+												"font-family: RobotoSlab-Regular;",
+												"font-size: 15px;",
+												"color: #FFFFFF;",
+												"letter-spacing: 3.4px;"
+											]
+										},
+										"image": {
+											"path": "images/Layer-text_pesan-n0vbotre.png",
+											"frame": {
+												"x": 155,
+												"y": 587,
+												"width": 64,
+												"height": 12
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "45546D9E-C457-4C59-87DC-2EC87F24D494",
+										"kind": "group",
+										"name": "bg_pesan",
+										"originalName": "bg_pesan",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 30,
+											"y": 562,
+											"width": 316,
+											"height": 60
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-bg_pesan-ndu1ndze.png",
+											"frame": {
+												"x": 30,
+												"y": 562,
+												"width": 316,
+												"height": 60
+											}
+										},
+										"children": []
 									}
-								},
-								"children": []
-							}
-						]
-					},
-					{
-						"objectId": "769AE8CD-251C-4AAA-BCC7-924DC97D6B33",
-						"kind": "group",
-						"name": "item",
-						"originalName": "item",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 99,
-							"y": 219,
-							"width": 177,
-							"height": 261
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"children": [
+								]
+							},
 							{
-								"objectId": "FA6EA641-3223-434F-B0BB-4C0A88CBD246",
+								"objectId": "769AE8CD-251C-4AAA-BCC7-924DC97D6B33",
 								"kind": "group",
-								"name": "img_item",
-								"originalName": "img_item",
+								"name": "item1",
+								"originalName": "item",
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 99,
 									"y": 219,
 									"width": 177,
-									"height": 177
+									"height": 261
 								},
 								"visible": true,
 								"metadata": {
 									"opacity": 1
 								},
-								"image": {
-									"path": "images/Layer-img_item-rke2rue2.png",
-									"frame": {
-										"x": 99,
-										"y": 219,
-										"width": 177,
-										"height": 177
+								"children": [
+									{
+										"objectId": "FA6EA641-3223-434F-B0BB-4C0A88CBD246",
+										"kind": "group",
+										"name": "img_item",
+										"originalName": "img_item",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 99,
+											"y": 219,
+											"width": 177,
+											"height": 177
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-img_item-rke2rue2.png",
+											"frame": {
+												"x": 99,
+												"y": 219,
+												"width": 177,
+												"height": 177
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "45086155-199D-4124-8161-24DAE4AD247F",
+										"kind": "text",
+										"name": "price",
+										"originalName": "price",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 142,
+											"y": 462,
+											"width": 92,
+											"height": 18
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "Rp 250.000",
+											"css": [
+												"/* price: */",
+												"font-family: RobotoSlab-Regular;",
+												"font-size: 18px;",
+												"color: #7E7E7E;"
+											]
+										},
+										"image": {
+											"path": "images/Layer-price-nduwodyx.png",
+											"frame": {
+												"x": 142,
+												"y": 462,
+												"width": 92,
+												"height": 18
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "0C4A8012-B929-4062-935C-CFC269CA6182",
+										"kind": "text",
+										"name": "title",
+										"originalName": "title",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 110,
+											"y": 426,
+											"width": 155,
+											"height": 21
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "Sayur Kangkung",
+											"css": [
+												"/* title: */",
+												"font-family: RobotoSlab-Regular;",
+												"font-size: 20px;",
+												"color: #000000;"
+											]
+										},
+										"image": {
+											"path": "images/Layer-title-mem0qtgw.png",
+											"frame": {
+												"x": 110,
+												"y": 426,
+												"width": 155,
+												"height": 21
+											}
+										},
+										"children": []
 									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "45086155-199D-4124-8161-24DAE4AD247F",
-								"kind": "text",
-								"name": "price",
-								"originalName": "price",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 142,
-									"y": 462,
-									"width": 92,
-									"height": 18
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1,
-									"string": "Rp 250.000",
-									"css": [
-										"/* price: */",
-										"font-family: RobotoSlab-Regular;",
-										"font-size: 18px;",
-										"color: #7E7E7E;"
-									]
-								},
-								"image": {
-									"path": "images/Layer-price-nduwodyx.png",
-									"frame": {
-										"x": 142,
-										"y": 462,
-										"width": 92,
-										"height": 18
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "0C4A8012-B929-4062-935C-CFC269CA6182",
-								"kind": "text",
-								"name": "title",
-								"originalName": "title",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 110,
-									"y": 426,
-									"width": 155,
-									"height": 21
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1,
-									"string": "Sayur Kangkung",
-									"css": [
-										"/* title: */",
-										"font-family: RobotoSlab-Regular;",
-										"font-size: 20px;",
-										"color: #000000;"
-									]
-								},
-								"image": {
-									"path": "images/Layer-title-mem0qtgw.png",
-									"frame": {
-										"x": 110,
-										"y": 426,
-										"width": 155,
-										"height": 21
-									}
-								},
-								"children": []
+								]
 							}
 						]
+					},
+					{
+						"objectId": "EABE6F4D-2A4E-4E2E-9A09-23886FCFD6DE",
+						"kind": "group",
+						"name": "bg_menu",
+						"originalName": "bg_menu",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 0,
+							"y": 176,
+							"width": 375,
+							"height": 491
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-bg_menu-rufcrtzg.png",
+							"frame": {
+								"x": 0,
+								"y": 176,
+								"width": 375,
+								"height": 491
+							}
+						},
+						"children": []
 					}
 				]
 			},
