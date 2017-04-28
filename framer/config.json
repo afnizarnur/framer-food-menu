@@ -12,9 +12,14 @@
   "deviceType" : "apple-iphone-7-silver",
   "projectId" : "E034AC25-78B7-486C-B945-B3A2619A540E",
   "deviceOrientation" : 0,
-  "selectedHand" : "",
+  "selectedHand" : "iphone-hands-2",
   "foldedCodeRanges" : [
-
+    "{53, 235}",
+    "{289, 231}",
+    "{521, 95}",
+    "{617, 133}",
+    "{751, 216}",
+    "{968, 222}"
   ],
   "deviceScale" : "fit"
 }

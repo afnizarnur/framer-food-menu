@@ -1,6 +1,6 @@
 app = Framer.Importer.load("imported/food-menu@2x")
 
-# When button Lihat Menu clicked
+# When button lihat menu clicked
 app.btn_menu.onMouseDown ->
 	app.bg_lihat.animate
 		opacity: 0.9
@@ -31,6 +31,7 @@ app.menu.y = Screen.height
 app.menu.visible = true
 app.menu.z = 1
 
+# Make overlay layer
 overlay = new Layer
 	backgroundColor: "black"
 	width: Screen.width
@@ -38,6 +39,7 @@ overlay = new Layer
 	opacity: 0
 	index: 0
 
+# When btn_menu clicked
 app.btn_menu.on Events.Click, ->
 	overlay.z = 1
 	overlay.animate 
@@ -50,6 +52,7 @@ app.btn_menu.on Events.Click, ->
 		options:
 			time: .45
 
+# When overlay clicked
 overlay.on Events.Click, ->
 	app.menu.animate
 		y: Screen.height
@@ -62,7 +65,8 @@ overlay.on Events.Click, ->
 		opacity: 0
 		curve: "spring(400, 35, 0)"
 
-# Menu properties
+# Add menu properties
+# Set Draggable
 app.menu.draggable = true
 app.menu.draggable.horizontal = false
 app.menu.draggable.constraints =
