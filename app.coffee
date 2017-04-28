@@ -71,5 +71,17 @@ app.menu.draggable = true
 app.menu.draggable.horizontal = false
 app.menu.draggable.constraints =
 	y: 352
-app.menu.draggable.overdrag = true
+	
+app.menu.on Events.DragMove, ->
+# 	if app.menu.y >= 500 
+# 		app.menu.animate
+# 			y: Screen.height
+# 			curve: "spring(400, 35, 0)"
+# 			options:
+# 				time: .45
+	
+    	
+
+	
+	
 	
