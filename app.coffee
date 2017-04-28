@@ -50,28 +50,16 @@ app.btn_menu.on Events.Click, ->
 		options:
 			time: .45
 
-overlay.states.show = 
-	overlay.animate
+overlay.on Events.Click, ->
+	app.menu.animate
+		y: Screen.height
+		curve: "spring(400, 35, 0)"
+		options:
+			time: .45
+	
+	overlay.animate 
 		visible: false
 		opacity: 0
 		curve: "spring(400, 35, 0)"
-
-overlay.onClick ->
-	overlay.stateCycle()
-	
-
-# overlay.on Events.Click, ->
-# 	app.menu.animate
-# 		y: Screen.height
-# 		curve: "spring(400, 35, 0)"
-# 		options:
-# 			time: .45
-# 	
-# 	overlay.animate 
-# 		visible: false
-# 		opacity: 0
-# 		curve: "spring(400, 35, 0)"
-		
-app.pesan.opacity
 	
 	
