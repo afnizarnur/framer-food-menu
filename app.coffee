@@ -31,8 +31,6 @@ app.menu.y = Screen.height
 app.menu.visible = true
 app.menu.z = 1
 
-# app.menu.opacity = .1
-	
 overlay = new Layer
 	backgroundColor: "black"
 	width: Screen.width
@@ -41,29 +39,39 @@ overlay = new Layer
 	index: 0
 
 app.btn_menu.on Events.Click, ->
+	overlay.z = 1
 	overlay.animate 
 		opacity: .5
-		z: 1
 		curve: "spring(400, 35, 0)"
 
 	app.menu.animate
 		y: 352
-		z: 9
 		curve: "spring(400, 35, 0)"
 		options:
 			time: .45
 
-overlay.on Events.Click, ->
-	overlay.z = 1
-	app.menu.animate
-		y: Screen.height
-		curve: "spring(400, 35, 0)"
-		options:
-			time: .45
-	
-	overlay.animate 
+overlay.states.show = 
+	overlay.animate
 		visible: false
 		opacity: 0
 		curve: "spring(400, 35, 0)"
+
+overlay.onClick ->
+	overlay.stateCycle()
+	
+
+# overlay.on Events.Click, ->
+# 	app.menu.animate
+# 		y: Screen.height
+# 		curve: "spring(400, 35, 0)"
+# 		options:
+# 			time: .45
+# 	
+# 	overlay.animate 
+# 		visible: false
+# 		opacity: 0
+# 		curve: "spring(400, 35, 0)"
+		
+app.pesan.opacity
 	
 	
