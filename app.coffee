@@ -61,5 +61,11 @@ overlay.on Events.Click, ->
 		visible: false
 		opacity: 0
 		curve: "spring(400, 35, 0)"
-	
+
+# Menu properties
+app.menu.draggable = true
+app.menu.draggable.horizontal = false
+app.menu.draggable.constraints =
+	y: 352
+app.menu.draggable.overdrag = true
 	
