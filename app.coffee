@@ -70,18 +70,16 @@ overlay.on Events.Click, ->
 app.menu.draggable = true
 app.menu.draggable.horizontal = false
 app.menu.draggable.constraints =
-	y: 352
-	
-app.menu.on Events.DragMove, ->
-	if app.menu.y >= 352  
-		app.menu.animate
-			y: Screen.height
-			curve: "spring(400, 35, 0)"
-			options:
-				time: .45
-	
-    	
+	y: 352 
 
+# app.menu.on Events.DragMove, ->
+# 	print app.menu.y
+# 	if app.menu.y >= 352  
+# 		app.menu.animate
+# 			y: Screen.height
+# 			curve: "spring(400, 35, 0)"
+# 			options:
+# 				time: .45
 	
 	
 	
